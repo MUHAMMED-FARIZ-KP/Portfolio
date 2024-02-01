@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Muhammed Fariz KP </span>
              from <span className="purple"> Kerala, India.</span>
-            <br /> I am a 3rd year student pursuing a B.tech in Information Technology
+            <br /> I am a 4th year student pursuing a B.tech in Information Technology
             <br/>
             <br/>
             Apart from coding, some other activities that I love to do!

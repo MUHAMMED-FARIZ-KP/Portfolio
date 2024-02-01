@@ -10,7 +10,6 @@ function Type() {
           "React Developer",
           "UI/UX Designer",
           "Freelancer",
-          "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
