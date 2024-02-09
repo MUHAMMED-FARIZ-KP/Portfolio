@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import pic from "../../Assets/mypic.jpg";
+import "./AboutCard.css";
 
 function AboutCard() {
   return (
@@ -13,6 +15,11 @@ function AboutCard() {
             <br /> I am a 4th year student pursuing a B.tech in Information Technology
             <br/>
             <br/>
+            <li>
+            <img src={pic} className="rounded-img" alt="avatar"/>
+            </li>
+            <br/>
+            <br/>
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
@@ -23,6 +30,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
+            
           </ul>
 
         
