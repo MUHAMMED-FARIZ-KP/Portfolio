@@ -2,15 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 import mini from "../../Assets/Projects/MiniProj.png";
 import snake from "../../Assets/Projects/Snake.png";
 import calcu from "../../Assets/Projects/calc.png";
+import chat from "../../Assets/Projects/ChatLive.png"
 
 function Projects() {
   return (
@@ -54,6 +50,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chat}
+              isBlog={false}
+              title="Chat-Live"
+              description="This is a compact chat application crafted using React and Socket.IO ."
+              ghLink="https://github.com/MUHAMMED-FARIZ-KP/ChatLive"
+              demoLink="https://chat-live-react.vercel.app/"              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calcu}
