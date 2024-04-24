@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import ktu from "../../Assets/Projects/KTUGPT.png";
 import mini from "../../Assets/Projects/MiniProj.png";
 import snake from "../../Assets/Projects/Snake.png";
 import calcu from "../../Assets/Projects/calc.png";
@@ -20,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ktu}
+              isBlog={false}
+              title="KTUGPT"
+              description="This is my Main Project, a Flask web application that is designed for answering questions based on the context from the PDFs. It uses the mistralai/Mistral-7B-Instruct-v0.1 model as the large language model (LLM) and the hkunlp/instructor-xl model for embedding text representations.  "
+              ghLink="https://github.com/MUHAMMED-FARIZ-KP/KTUGPT"
+              demoLink="https://ktu-gpt.vercel.app/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mini}
