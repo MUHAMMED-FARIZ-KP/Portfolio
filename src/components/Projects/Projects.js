@@ -7,6 +7,8 @@ import mini from "../../Assets/Projects/MiniProj.png";
 import snake from "../../Assets/Projects/Snake.png";
 import calcu from "../../Assets/Projects/calc.png";
 import chat from "../../Assets/Projects/ChatLive.png"
+import bmi from "../../Assets/Projects/bmi2.jpg";
+import quizz from "../../Assets/Projects/quiz.jpg";
 
 function Projects() {
   return (
@@ -71,7 +73,7 @@ function Projects() {
               demoLink="https://chat-live-react.vercel.app/"              
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calcu}
               isBlog={false}
@@ -79,6 +81,27 @@ function Projects() {
               description="This  Calculator is a web application that provides a user-friendly interface for performing basic mathematical calculations."
               ghLink="https://github.com/farizz7676/calculator"
               demoLink="https://farizz7676.github.io/calculator/"              
+            />
+          </Col> */}
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bmi}
+              isBlog={false}
+              title="BMI CALCULATOR"
+              description="This is a compact BMI Calculator application developed  using  Flutter."
+              ghLink="https://github.com/MUHAMMED-FARIZ-KP/BMI_Calculator"
+              demoLink="https://github.com/MUHAMMED-FARIZ-KP/BMI_Calculator"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quizz}
+              isBlog={false}
+              title="Quizz App"
+              description="This is a simple quiz app developed using Flutter."
+              ghLink="https://github.com/MUHAMMED-FARIZ-KP/QuizzApp-Flutter"
+              demoLink="https://github.com/MUHAMMED-FARIZ-KP/QuizzApp-Flutter"              
             />
           </Col>
 
